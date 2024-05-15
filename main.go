@@ -1,12 +1,14 @@
 package main
 
-import (
+// ***REMEMBER TO UNCOMMENT IMPORT***
 
-	//http request handle karne ke liye
+// import (
+//   "fmt"
+//   "net/http" //http request handle karne ke liye
 
-	"./user"                      //user.go file ko import karne ke liye
-	"github.com/labstack/echo/v4" //Echo web framework ke liye
-)
+//   "github.com/labstack/echo/v4" //Echo web framework ke liye
+//   "./user" //user.go file ko import karne ke liye
+// )
 
 // In-memory user storage (database se replace kardena baadmein)
 var users []user.User
@@ -22,4 +24,4 @@ func main() {
 	e.Logger.Fatal(e.Start(":8080")) // baad mein desired port number se replace karna hai
 }
 
-//abhi ke liye itna rehne dete hain.. baad ka dekhta hoon; pehle thoda user.go ka maamla dekhleta hoon
+//abhi ke liye itna rehne dete hain.. baad ka dekhta hoon; pehle thoda user.go ka maamla dekhleta
