@@ -1,5 +1,6 @@
 # student-mentorship-program
-Goal: Create a platform that connects students and mentors for learning.
+Goal: 
+Create a platform that connects students and mentors for learning.
 Features:
 1. User Accounts (Students & Mentors) with Google and JWT authentication.
 2. User Profiles for students and mentors to showcase their information.
